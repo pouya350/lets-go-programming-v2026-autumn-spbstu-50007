@@ -17,6 +17,9 @@ func Summa(a, b int) (int, error) {
 func Diff(a, b int) (int, error) {
 	return a - b, nil
 }
+func Multip(a, b int) (int, error) {
+	return a * b, nil
+}
 
 func main() {
 	
