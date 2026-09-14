@@ -63,7 +63,7 @@ func main() {
 		return
 	}
 	result, err := Operation(a, b, operation)
-		if err != nil {
+	if err != nil {
 		fmt.Println(err)
 		return
 	}
