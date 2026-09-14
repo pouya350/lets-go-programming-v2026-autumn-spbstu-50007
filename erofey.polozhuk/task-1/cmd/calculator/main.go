@@ -14,6 +14,9 @@ func Divide(a, b int) (int, error) {
 func Summa(a, b int) (int, error) {
 	return a + b, nil
 }
+func Diff(a, b int) (int, error) {
+	return a - b, nil
+}
 
 func main() {
 	
