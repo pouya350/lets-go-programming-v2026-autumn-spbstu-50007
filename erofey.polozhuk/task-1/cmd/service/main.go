@@ -20,7 +20,6 @@ func Multip(a, b int) int {
 	return a * b
 }
 func Operation(a, b int, opertion string) (int, error) {
-
 	switch opertion {
 	case "+":
 		res := Summa(a, b)
